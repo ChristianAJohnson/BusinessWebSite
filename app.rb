@@ -22,5 +22,5 @@ end
 
 get "/todolist" do
 
-erb: todolist
+erb :todolist
 end
