@@ -2,6 +2,8 @@
 	margin-left: 44.5%;
 	margin-right: 30%;
 	font-family: 'Lato', sans-serif;
+	position:relative;
+	top:30px;
 }
 
 #toDoList {
@@ -14,11 +16,20 @@ margin-right: 30%;
 font-family: 'Lato', sans-serif;
 
 }
+
+.movieBox:hover {
+	color:red;
+	opacity:0.8;
+
+}
+
 #slideshowContainer {
   max-width: 1000px;
   position: relative;
   top:75px;
+  height:280px;
   margin: auto;
+  background-color:#FF4C24 ;
 }
 
 .mySlides {
@@ -35,7 +46,7 @@ font-family: 'Lato', sans-serif;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: red;
+  color: gray;
   font-weight: bold;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
@@ -53,10 +64,11 @@ font-family: 'Lato', sans-serif;
 }
 
 .text {
-  color: red;
+  color: white;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
+  top:240px;
   bottom: 8px;
   width: 100%;
   text-align: center;

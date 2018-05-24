@@ -5,7 +5,7 @@ var listWrapper = document.getElementById("listWrapper");
 var slideshowContainer = document.getElementById("slideshowContainer");
 var imageSlides = document.getElementsByClassName("imageslide");
 
-var movieArray = ["blackmirror","bladerunner","fifthelement","fightclub","ghostbusters","grr","it","jaws","madmax","pulpfiction","romeomustdie","silenceofthelambs","thelastjedi","themartian","titanic"];
+var movieArray = ["blackmirror","bladerunner","fifthelement","fightclub","ghostbusters","grr","it","jaws","madmax","pulpfiction","romeomustdie","silenceofthelambs","thelastjedi","themartian","titanic","momanddad"];
 
 var movieImageArray = []
 
@@ -21,6 +21,7 @@ for(let i=0;i<movieArray.length;i++){
 	movieBox.style.fontFamily = "courier";
 	movieBox.style.backgroundColor = "#A0E838";
 	movieBox.style.margin = "5px";
+	movieBox.style.outline = "none";
 	movieBox.style.borderRadius = "30px"
 	movieBox.style.textAlign = "center";
 	movieBox.style.textTransform = "capitalize";
