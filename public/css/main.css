@@ -19,12 +19,12 @@ body {
   background-color: #FF4C24; }
 
 #index-splash {
-  background-image: url("https://movie-search-with-jquery.herokuapp.com/img/moviebg.jpg");
   grid-column-start: 1;
   grid-column-end: 3;
   border: 2px solid #3F5C16;
   grid-row-start: 1;
   grid-row-end: 2;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -74,5 +74,16 @@ body {
   grid-column-start: 1;
   grid-column-end: 3;
   height: 30px; }
+
+#image-div1 {
+  padding: 100px;
+  text-align: center; }
+
+#image-div2 {
+  padding: 100px;
+  text-align: center; }
+
+body {
+  background-color: #FFFA82; }
 
 /*# sourceMappingURL=main.css.map */

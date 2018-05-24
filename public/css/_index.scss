@@ -25,13 +25,14 @@ background-color: #FFFA82;
 
 #index-splash{
 // background-size: 100% 100%;
-background-image: url("https://movie-search-with-jquery.herokuapp.com/img/moviebg.jpg");
+// background-image: url("https://movie-search-with-jquery.herokuapp.com/img/moviebg.jpg");
 grid-column-start: 1;
 grid-column-end: 3;
 border: 2px solid #3F5C16;
 grid-row-start: 1;
 grid-row-end: 2;
 // position: absolute;
+width: 100%;
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
@@ -85,4 +86,15 @@ grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 3;
   height: 30px;
+}
+
+
+#image-div1{
+  padding: 100px;
+text-align: center;
+}
+
+#image-div2{
+  padding: 100px;
+text-align: center;
 }
