@@ -83,7 +83,16 @@ body {
   padding: 100px;
   text-align: center; }
 
-body {
-  background-color: #FFFA82; }
+#todolistTitle {
+  margin-left: 42%;
+  margin-right: 30%; }
+
+#toDoList {
+  border: 2px solid red;
+  width: 250px;
+  position: relative;
+  top: 75px;
+  margin-left: 35%;
+  margin-right: 30%; }
 
 /*# sourceMappingURL=main.css.map */
