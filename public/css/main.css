@@ -521,6 +521,28 @@ template {
     opacity: .4; }
   to {
     opacity: 1; } }
+#weekWrapper {
+  max-width: 1500px;
+  position: relative;
+  top: 75px;
+  height: 390px;
+  margin: auto;
+  background-color: #FF4C24;
+  margin: 2px; }
+
+#weekTitle {
+  position: relative;
+  top: 40px;
+  margin-left: 39%;
+  margin-right: 35%;
+  font-family: 'Lato', sans-serif; }
+
+#weeklyMovie, #weeklyMovie2, #weeklyMovie3, #weeklyMovie4, #weeklyMovie5 {
+  position: relative;
+  left: 95px;
+  top: 45px;
+  margin: 0 auto; }
+
 body {
   background-color: #FFFA82; }
 
