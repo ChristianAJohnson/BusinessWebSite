@@ -25,7 +25,7 @@ for(let i=0;i<movieArray.length;i++){
 	movieBox.style.borderRadius = "30px"
 	movieBox.style.textAlign = "center";
 	movieBox.style.textTransform = "capitalize";
-	movieBox.style.fontFamily = "'Lato', sans-serif";
+	movieBox.style.fontSize = "12px";
 	movieBox.innerHTML = movieArray[i];
 	movieListWrapper.appendChild(movieBox);
 	movieBox.addEventListener("click",function(e){
