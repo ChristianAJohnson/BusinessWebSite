@@ -399,6 +399,11 @@ template {
   position: relative;
   top: 30px; }
 
+
+#movieListWrapper {
+  position: relative;
+  top: 20px; }
+
 #toDoList {
   border: 2px solid red;
   width: 250px;
@@ -458,7 +463,7 @@ template {
   font-family: 'Lato', sans-serif; }
 
 .numbertext {
-  color: red;
+  color: white;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
