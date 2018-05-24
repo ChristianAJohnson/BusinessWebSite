@@ -90,7 +90,7 @@ body {
   display: grid; }
 
 #todolistTitle {
-  margin-left: 42%;
+  margin-left: 44.5%;
   margin-right: 30%;
   font-family: 'Lato', sans-serif; }
 
@@ -112,7 +112,7 @@ body {
 .mySlides {
   position: relative;
   top: 2px;
-  left: 375px; }
+  left: 400px; }
 
 .prev, .next {
   cursor: pointer;
