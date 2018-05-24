@@ -500,13 +500,33 @@ template {
 body {
   background-color: #FFFA82; }
 
+#navbar-img {
+  border-radius: 50%;
+  float: left; }
+
 #navbar {
   position: relative;
-  background-color: #FF4C24; }
+  background-color: #FF4C24;
+  height: 130px; }
 
 #navbar li {
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: 50px;
   display: inline;
+  padding-left: 50px;
   text-align: center; }
+
+#navbar a {
+  text-decoration: none;
+  letter-spacing: 3px; }
+
+#navbar a:visited {
+  color: white; }
+
+#navbar a:hover {
+  background-color: #A0E838; }
 
 /*# sourceMappingURL=main.css.map */
