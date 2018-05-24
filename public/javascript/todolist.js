@@ -5,7 +5,7 @@ var listWrapper = document.getElementById("listWrapper");
 var slideshowContainer = document.getElementById("slideshowContainer");
 var imageSlides = document.getElementsByClassName("imageslide");
 
-var movieArray = ["blackmirror","bladerunner","fifthelement","fightclub","ghostbusters","grr","it","jaws","madmax","pulpfiction","romeomustdie","silenceofthelambs","thelastjedi","themartian","titanic"];
+var movieArray = ["blackmirror","bladerunner","fifthelement","fightclub","ghostbusters","grr","it","jaws","madmax","pulpfiction","romeomustdie","silenceofthelambs","thelastjedi","themartian","titanic","momanddad"];
 
 var movieImageArray = []
 
