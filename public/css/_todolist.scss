@@ -4,6 +4,8 @@
 	position:relative;
 	top:40px;
 	font-family: 'Lato', sans-serif;
+	position:relative;
+	top:30px;
 }
 
 #movieListWrapper {
@@ -21,13 +23,23 @@ margin-right: 30%;
 font-family: 'Lato', sans-serif;
 
 }
+
+.movieBox:hover {
+	color:red;
+	opacity:0.8;
+
+}
+
 #slideshowContainer {
   max-width: 1000px;
   position: relative;
   top:75px;
   height:280px;
   margin: auto;
-  background-color:#FF4C24; 
+
+
+  background-color:#FF4C24 ;
+
 }
 
 .mySlides {
