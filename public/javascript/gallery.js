@@ -5,13 +5,19 @@ var movieArray = ["blackmirror","bladerunner","fifthelement","fightclub","ghostb
 var newMovies = document.getElementById("newMovies");
 var newMoviesleft = document.getElementById("newMoviesleft")
 var newMoviesright = document.getElementById("newMoviesright")
-var newMovieNumber = 0
+var newMovieNumber = 0;
 
 
 var scifi = document.getElementById("scifi");
+var newscifileft  = document.getElementById("newscifileft");
+var newscifiright = document.getElementById("newscifiright");
+var scifiNumber = 1;
+
+
 var other = document.getElementById("other");
-
-
+var newotherleft = document.getElementById("newotherleft");
+var newotherright = document.getElementById("newotherright");
+var otherNumber= 7;
 
 
 
@@ -23,7 +29,7 @@ function ShowAllMovies()
 		var picture = document.createElement("div")
 		picture.style.width = "200px"
 		picture.style.height = "170px	"
-		picture.style.border = "2px solid blue"
+		// picture.style.border = "2px solid blue"
 		// picture.style.marginTop = "10px"
 		picture.style.display=  "inline-block"
 		picture.style.backgroundImage = "url(../images/"+movieArray[i]+".jpeg)"
@@ -35,9 +41,10 @@ function ShowAllMovies()
 function ShowNewMovies(image)
 {
 	var picture = document.createElement("div")
+	picture.setAttribute('id', 'test'+ newMovieNumber)
 	picture.style.width = "200px"
 	picture.style.height = "170px	"
-	picture.style.border = "2px solid blue"
+	// picture.style.border = "2px solid blue"
 	// picture.style.marginTop = "10px"
 	picture.style.display=  "inline-block"
 	picture.style.backgroundImage = "url(../images/"+image+".jpeg)"
@@ -49,7 +56,7 @@ function ShowScifiMovies(image)
 	var picture = document.createElement("div")
 	picture.style.width = "200px"
 	picture.style.height = "170px"
-	picture.style.border = "2px solid blue"
+	// picture.style.border = "2px solid blue"
 	// picture.style.marginTop = "10px"
 	picture.style.display=  "inline-block"
 	picture.style.backgroundImage = "url(../images/"+image+".jpeg)"
@@ -61,7 +68,7 @@ function ShowOtherMovies(image)
 	var picture = document.createElement("div")
 	picture.style.width = "200px"
 	picture.style.height = "170px	"
-	picture.style.border = "2px solid blue"
+	// picture.style.border = "2px solid blue"
 	// picture.style.marginTop = "10px"
 	picture.style.display=  "inline-block"
 	picture.style.backgroundImage = "url(../images/"+image+".jpeg)"
@@ -70,8 +77,8 @@ function ShowOtherMovies(image)
 
 
 ShowNewMovies(movieArray[newMovieNumber])
-ShowScifiMovies(movieArray[2])
-ShowOtherMovies(movieArray[7])
+ShowScifiMovies(movieArray[scifiNumber])
+ShowOtherMovies(movieArray[otherNumber])
 
 newMoviesleft.addEventListener("click", function(){
 	newMovieNumber = newMovieNumber - 1
@@ -82,6 +89,32 @@ newMoviesright.addEventListener("click", function(){
 	newMovieNumber = newMovieNumber + 1
 	ShowNewMovies(movieArray[newMovieNumber])
 })
+
+
+newscifileft.addEventListener("click", function(){
+	scifiNumber = scifiNumber - 1
+	ShowScifiMovies(movieArray[scifiNumber])
+})
+
+newscifiright.addEventListener("click", function(){
+	scifiNumber = scifiNumber + 1
+	ShowScifiMovies(movieArray[scifiNumber])
+})
+
+
+newotherleft.addEventListener("click", function(){
+	otherNumber = otherNumber - 1
+	ShowOtherMovies(movieArray[otherNumber])
+})
+
+newotherright.addEventListener("click", function(){
+	otherNumber = otherNumber + 1
+	ShowOtherMovies(movieArray[otherNumber])
+})
+
+
+
+
 
 // newMoviesright.addEventListener("click", function(){
 // 	newMovieNumber = newMovieNumber + 1

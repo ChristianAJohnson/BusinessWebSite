@@ -1,0 +1,49 @@
+#contactWrapper{
+	border: 2px solid red;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: 70px;
+	border: 2px solid red
+}
+
+
+#twittericon{
+	border: 2px solid orange;
+	background-image: url(../images/twitter.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	position: relative; /* this will move the image */
+	left: 120px;
+}
+
+#emailicon{
+	border: 2px solid green;
+	background-image: url(../images/email.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	position: relative; /* this will move the image */
+	left: 120px;
+}
+
+#phone{
+	border: 2px solid purple;
+	background-image: url(../images/telephone.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	position: relative; /* this will move the image */
+	left: 120px;
+}
+
+#submit{
+	border: 2px solid blue;
+	background-image: url(../images/submit.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	height: 30px;
+	position: relative; /* this will move the image */
+	left: 120px;
+}
