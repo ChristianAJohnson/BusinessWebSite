@@ -388,12 +388,6 @@ template {
 #galleryWrapper {
   border: 2px solid red;
   grid-template-columns: 1fr;
-  grid-auto-rows: 500px;
-  display: grid; }
-
-#galleryWrapper {
-  border: 2px solid red;
-  grid-template-columns: 1fr;
   grid-auto-rows: 100px;
   display: grid; }
 
@@ -449,7 +443,8 @@ template {
 .mySlides {
   position: relative;
   top: 2px;
-  left: 400px; }
+  left: 400px;
+  height: 240px; }
 
 .prev, .next {
   cursor: pointer;
@@ -520,11 +515,6 @@ template {
     opacity: .4; }
   to {
     opacity: 1; } }
-
-* {
-  padding: 0;
-  margin: 0; }
-
 #weekWrapper {
   max-width: 1500px;
   position: relative;
@@ -543,13 +533,13 @@ template {
 
 #weeklyMovie, #weeklyMovie2, #weeklyMovie3, #weeklyMovie4, #weeklyMovie5 {
   position: relative;
-  left: 95px;
+  left: 150px;
   top: 45px;
   margin: 0 auto; }
 
-body {
-  background-color: #FFFA82; }
-
+* {
+  padding: 0;
+  margin: 0; }
 
 body {
   background-color: #FFFA82; }
