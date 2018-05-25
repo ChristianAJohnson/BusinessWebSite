@@ -36,7 +36,7 @@ setInterval(function(){
 	weeklyMovie3.setAttribute("src","images/" + randomMovie3 +".jpeg")
 	weeklyMovie4.setAttribute("src","images/" + randomMovie4 +".jpeg")
 	weeklyMovie5.setAttribute("src","images/" + randomMovie5 +".jpeg")
-},60000)
+},20000)
 
 
 
