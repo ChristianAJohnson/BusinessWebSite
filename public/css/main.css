@@ -405,7 +405,7 @@ p.normal {
 
 #twittericon > #twittertext {
   position: relative;
-  /* this will move the image */
+  /* this will move the text */
   left: 60px; }
 
 #emailicon {
@@ -419,7 +419,7 @@ p.normal {
 
 #emailicon > #emailtext {
   position: relative;
-  /* this will move the image */
+  /* this will move the the text */
   left: 60px; }
 
 #phone {
@@ -433,7 +433,7 @@ p.normal {
 
 #phone > #phonetext {
   position: relative;
-  /* this will move the image */
+  /* this will move the text */
   left: 60px; }
 
 #submit {
@@ -447,8 +447,11 @@ p.normal {
 
 #submit > #submittext {
   position: relative;
-  /* this will move the image */
+  /* this will move the text */
   left: 60px; }
+
+#commentText {
+  background-color: #A0E838; }
 
 #galleryWrapper {
   grid-template-columns: 1fr;
