@@ -19,6 +19,8 @@ var newotherleft = document.getElementById("newotherleft");
 var newotherright = document.getElementById("newotherright");
 var otherNumber= 7;
 
+var picWidth = "180px"
+var picHeight = "275px"
 
 
 function ShowAllMovies()
@@ -42,8 +44,8 @@ function ShowNewMovies(image)
 {
 	var picture = document.createElement("div")
 	picture.setAttribute('id', 'test'+ newMovieNumber)
-	picture.style.width = "200px"
-	picture.style.height = "170px	"
+	picture.style.width = picWidth
+	picture.style.height = picHeight
 	// picture.style.border = "2px solid blue"
 	// picture.style.marginTop = "10px"
 	picture.style.display=  "inline-block"
@@ -54,8 +56,8 @@ function ShowNewMovies(image)
 function ShowScifiMovies(image)
 {
 	var picture = document.createElement("div")
-	picture.style.width = "200px"
-	picture.style.height = "170px"
+	picture.style.width = picWidth
+	picture.style.height = picHeight
 	// picture.style.border = "2px solid blue"
 	// picture.style.marginTop = "10px"
 	picture.style.display=  "inline-block"
@@ -66,8 +68,8 @@ function ShowScifiMovies(image)
 function ShowOtherMovies(image)
 {
 	var picture = document.createElement("div")
-	picture.style.width = "200px"
-	picture.style.height = "170px	"
+	picture.style.width = picWidth
+	picture.style.height = picHeight
 	// picture.style.border = "2px solid blue"
 	// picture.style.marginTop = "10px"
 	picture.style.display=  "inline-block"

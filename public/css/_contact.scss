@@ -1,15 +1,17 @@
 #contactWrapper{
-	border: 2px solid red;
 	width: 100%;
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-auto-rows: 70px;
-	border: 2px solid red
+	// border: 2px solid red
 }
 
+p.normal{
+	font-weight: bold;
+}
 
 #twittericon{
-	border: 2px solid orange;
+	// border: 2px solid orange;
 	background-image: url(../images/twitter.png);
 	background-size: 30px;
 	background-repeat: no-repeat;
@@ -18,8 +20,13 @@
 	left: 120px;
 }
 
+#twittericon > #twittertext{
+	position: relative; /* this will move the image */
+	left: 60px;
+}
+
 #emailicon{
-	border: 2px solid green;
+	// border: 2px solid green;
 	background-image: url(../images/email.png);
 	background-size: 30px;
 	background-repeat: no-repeat;
@@ -28,8 +35,13 @@
 	left: 120px;
 }
 
+#emailicon > #emailtext{
+	position: relative; /* this will move the image */
+	left: 60px;
+}
+
 #phone{
-	border: 2px solid purple;
+	// border: 2px solid purple;
 	background-image: url(../images/telephone.png);
 	background-size: 30px;
 	background-repeat: no-repeat;
@@ -38,8 +50,13 @@
 	left: 120px;
 }
 
+#phone > #phonetext{
+	position: relative; /* this will move the image */
+	left: 60px;
+}
+
 #submit{
-	border: 2px solid blue;
+	// border: 2px solid blue;
 	background-image: url(../images/submit.png);
 	background-size: 30px;
 	background-repeat: no-repeat;
@@ -47,3 +64,17 @@
 	position: relative; /* this will move the image */
 	left: 120px;
 }
+
+#submit > #submittext{
+	position: relative; /* this will move the image */
+	left: 60px;
+}
+
+
+
+
+
+
+
+
+
