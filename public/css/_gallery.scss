@@ -9,16 +9,18 @@
 	// border: 2px solid blue;
 	grid-row-start: 1;
 	grid-row-end: 3;
+	background-color: $lighter-green;
 }
 
 #scifi{
 	// border: 2px solid orange;
 	grid-row-start: 3;
-	grid-row-end: 5;
+	grid-row-end: 5;	
 }
 
 #other{
 	// border: 2px solid yellow;
 	grid-row-start: 5;
 	grid-row-end: 7;
+	background-color:#FF4C24 ;
 }
